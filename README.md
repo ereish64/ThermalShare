@@ -10,6 +10,8 @@ to normal.
 It only ever **lowers** clocks, and only while a game runs. It never overclocks, undervolts, or touches power
 limits, voltages or fans. If lowering a clock costs frames, it puts the clock back.
 
+<img width="2560" height="2520" alt="ThermalShare_ab_graphs" src="https://github.com/user-attachments/assets/3e3761c9-bca7-4816-a28f-c8e5ed4f6c27" />
+
 > This file is the overview for people working on the project. The user guide (how to use the exe, every option,
 > troubleshooting) is [README.txt](README.txt).
 
