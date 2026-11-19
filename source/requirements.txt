@@ -1,0 +1,12 @@
+# Python 3.9 or newer, on Windows.   Install with:  py -m pip install -r requirements.txt
+#
+# Everything else ThermalShare uses is in Python's standard library or in Windows itself (ctypes talks to
+# DirectX, the performance counters and the registry; nvidia-smi comes with the NVIDIA driver; PresentMon is
+# in tools\ or downloads once).
+
+# Runs the CPU and GPU loads: the load test, and the synthetic game of the A/B test (synthgame.py).
+# Needed both to run from source and inside the built exe.
+numpy>=1.24
+
+# Only to build ThermalShare.exe (build_exe.bat). Not needed to run from source.
+pyinstaller>=6.0
